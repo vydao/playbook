@@ -32,6 +32,8 @@
 
 - Linter: [golangci-lint](https://github.com/golangci/golangci-lint)
 
+- Kafka Go client: [sarama](https://github.com/IBM/sarama)
+
 ## Load balancer health checks
 
 Often the application is running behind a load balaner. Load balancers typically can monitor application servers by polling a given URL. The health check is used so that the load balancer can stop routing traffic to the failing application servers.
